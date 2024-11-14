@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#72dd61"
+    android:textAlignment="viewEnd"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="50dp"
+    tools:layout_editor_absoluteY="-101dp">
+
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="410dp"
+        android:layout_height="101dp"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+
+
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar3"
+        android:layout_width="256dp"
+        android:layout_height="72dp"
+        android:background="#ffadad"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar7"
+        android:layout_width="256dp"
+        android:layout_height="72dp"
+        android:background="#ffee95"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:accessibilityLiveRegion="none"
+        android:alpha="10"
+        android:scaleType="centerInside"
+        app:circularflow_angles="10"
+        app:circularflow_defaultAngle="10"
+        app:circularflow_radiusInDP="10"
+        app:circularflow_viewCenter="10"
+        app:civ_border_color="#ff000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_marginBaseline="20dp"
+        tools:layout_editor_absoluteY="112dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="104dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Olá, Thiago"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lançamento futuro"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="97dp"
+        android:layout_height="17dp"
+        android:text="R$ 3.000,00"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saldo atual"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar8"
+        android:layout_width="256dp"
+        android:layout_height="72dp"
+        android:background="#88e9ff"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="212dp"
+        android:layout_height="12dp"
+        android:text="Bradesco, R$ 45,00, Mercado Komper"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="589dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="212dp"
+        android:layout_height="12dp"
+        android:text="Bradesco, R$ 45,00, Mercado Komper"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="613dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="212dp"
+        android:layout_height="12dp"
+        android:text="Bradesco, R$ 45,00, Mercado Komper"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="601dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="212dp"
+        android:layout_height="12dp"
+        android:text="Nubank, R$ 16,00, Churrascaria das Primas"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="228dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Alimentação"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="212dp"
+        android:layout_height="12dp"
+        android:text="Bradesco, R$ 45,00, Mercado Komper"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="212dp"
+        android:layout_height="12dp"
+        android:text="Itaú, R$ 72,53, Lanchonete do Pedro"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <Button
+
+        android:id="@+id/button3"
+        android:layout_width="21dp"
+        android:layout_height="20dp"
+        android:layout_margin="0dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="0dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="1dp"
+        android:text="+"
+
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorLink="#FFFFFF"
+        app:layout_marginBaseline="0dp"
+        app:rippleColor="#000000"
+        app:strokeColor="#000000"
+        app:strokeWidth="2.5dp"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+
+    <Button
+
+        android:id="@+id/button5"
+        android:layout_width="21dp"
+        android:layout_height="20dp"
+        android:layout_margin="0dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="0dp"
+        android:paddingRight="5dp"
+
+        android:paddingBottom="1dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorLink="#FFFFFF"
+        app:layout_marginBaseline="0dp"
+        app:rippleColor="#000000"
+        app:strokeColor="#000000"
+        app:strokeWidth="2.5dp"
+        tools:layout_editor_absoluteX="355dp"
+        tools:layout_editor_absoluteY="224dp"
+        tools:text="-" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 500,00"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="230dp"
+        android:layout_height="21dp"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="230dp"
+        android:layout_height="21dp"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="228dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Gasolina"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="212dp"
+        android:layout_height="12dp"
+        android:text="Bradesco, R$ 45,00, Mercado Komper"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="212dp"
+        android:layout_height="12dp"
+        android:text="Bradesco, R$ 45,00, Mercado Komper"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="212dp"
+        android:layout_height="12dp"
+        android:text="Bradesco, R$ 45,00, Mercado Komper"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="521dp" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="228dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Pets"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="81dp"
+        android:layout_height="25dp"
+        android:ems="10"
+        android:inputType="text"
+        android:rotation="-90"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="27dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/lista"
+        tools:layout_editor_absoluteX="376dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="27dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/olho"
+        tools:layout_editor_absoluteX="346dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="materialToolbar3,textView,editTextText6,textView7,textView2" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="editTextText5,textView13,materialToolbar8,textView8,textView12" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="editTextText5,textView13,materialToolbar8,textView8,textView12" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar2"
+        android:layout_width="335dp"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_toolbar_background"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="19dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="316dp"
+        android:text=" ︙"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="-24dp" />
+
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar4"
+        android:layout_width="411dp"
+        android:layout_height="709dp"
+        android:alpha="1"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="102dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:accessibilityLiveRegion="none"
+        android:alpha="10"
+        android:scaleType="centerInside"
+        app:circularflow_angles="10"
+        app:circularflow_defaultAngle="10"
+        app:circularflow_radiusInDP="10"
+        app:circularflow_viewCenter="10"
+        app:civ_border_color="#ff000000"
+        app:civ_border_width="2dp"
+        app:layout_marginBaseline="20dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="55dp"
+        tools:srcCompat="@drawable/usuario" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:accessibilityLiveRegion="none"
+        android:alpha="10"
+        android:scaleType="centerInside"
+        app:circularflow_angles="10"
+        app:circularflow_defaultAngle="10"
+        app:circularflow_radiusInDP="10"
+        app:circularflow_viewCenter="10"
+        app:civ_border_color="#ff000000"
+        app:civ_border_width="2dp"
+        app:layout_marginBaseline="20dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:srcCompat="@tools:sample/avatars[0]" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:accessibilityLiveRegion="none"
+        android:alpha="10"
+        android:scaleType="centerInside"
+        app:circularflow_angles="10"
+        app:circularflow_defaultAngle="10"
+        app:circularflow_radiusInDP="10"
+        app:circularflow_viewCenter="10"
+        app:civ_border_color="#ff000000"
+        app:civ_border_width="2dp"
+        app:layout_marginBaseline="20dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="111dp"
+        tools:srcCompat="@drawable/sobre" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:accessibilityLiveRegion="none"
+        android:alpha="10"
+        android:scaleType="centerInside"
+        app:circularflow_angles="10"
+        app:circularflow_defaultAngle="10"
+        app:circularflow_radiusInDP="10"
+        app:circularflow_viewCenter="10"
+        app:civ_border_color="#ff000000"
+        app:civ_border_width="2dp"
+        app:layout_marginBaseline="20dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="169dp"
+        tools:srcCompat="@drawable/sair" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar Perfil"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Olá, Thiago"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="167dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sobre"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log-out"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
